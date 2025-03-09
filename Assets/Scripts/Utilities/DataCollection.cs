@@ -4,10 +4,12 @@ using UnityEngine;
 public class ItemDetails
 {
     // Start is called before the first frame update
-    public string itemID;
-    public string name;
+    public int itemID;
+    public string itemName;
 
     public Sprite itemIcon;
+
+    public ItemType itemType;
 
     public Sprite itemOnWorldSprite;
 

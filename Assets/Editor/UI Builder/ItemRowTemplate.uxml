@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Row" style="flex-grow: 0; height: 52px; width: auto; flex-direction: row; flex-shrink: 0; align-items: stretch;">
+        <ui:VisualElement name="Icon" style="flex-grow: 0; flex-shrink: 0; width: 60px; height: 60px; align-self: center; justify-content: flex-start; align-items: flex-end; background-image: url(&quot;project://database/Assets/M%20Studio/Art/Items/Icons/icon_Chop.png?fileID=2800000&amp;guid=3714c3e6b5e3d498ebcd06d432b3dd89&amp;type=3#icon_Chop&quot;); flex-direction: column-reverse; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;" />
+        <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" style="justify-content: center; align-items: auto; align-self: center; width: 52px; height: 25px; font-size: 18px;" />
+    </ui:VisualElement>
+</ui:UXML>
